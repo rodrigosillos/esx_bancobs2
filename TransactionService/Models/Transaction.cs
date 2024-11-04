@@ -12,6 +12,6 @@ namespace TransactionService.Models
         public required string DestinationAccount { get; set; }
         public decimal Amount { get; set; }
         public DateTime Timestamp { get; set; }
-        public required string TransactionType { get; set; } // e.g., Transfer, Deposit
+        public required string TransactionType { get; set; }
     }
 }
